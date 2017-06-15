@@ -1,33 +1,35 @@
-<!-- //Week 1 Assignment- That Portfolio Though **Contact Page**
+<!-- //Week 1 Assignment- That Portfolio Though **Contact Page** 
 //created: June 8, 2017 12:14PM
 //Author: Jeanine Smith 
-//V.2-->
+//V.2
+//Updated June 12, 2017 11:13AM -->
 
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-	<link rel="stylesheet" href="styles.css">	
-	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<meta charset="utf-8">
 	<title>Jeanine Smith</title>
-
-</head>	
+</head>		
 
 <body>
-
-	<!-- Wrapper -->
-
-		<!-- Tab Header -->
+<div class= "wrapper">
+	<!-- Header -->
+	<header>
 		<h1>Jeanine Smith</h1>
+		<div class= "navMenu">
+			<a href= "index.html">About</a> | 
+			<a href= "portfolio.html">Portfolio</a> | 
+			<a href= "contact.html">Contact</a>
+		</div>	
+	</header>
 
-		<!-- Right Menu Items -->
-		<a href= "index.html">About</a>
-		<a href= "portfolio.html">Portfolio</a>
-		<a href= "contact.html">Contact</a>
-
+	<!-- Main Content -->
+	<section class= "mainContent">
 		<!-- Page Title -->
-		<h1>Contact</h1>
+		<h2>Contact</h2>
 
 		<!-- Contact Form -->
 		<form>
@@ -43,32 +45,39 @@
 				Message<br>
 				<textarea name="message" rows="10" cols="30"></textarea>
 				</br>
-
-				<input type="submit" value="Submit">
+				
+				<input class="button" type="submit" value="Submit">
 
 			</fieldset>
 		</form>	
+	</section>
 
-		<!-- Connect With Me -->
-		<h2>Connect with Me</h2>
+	<aside>
+				<!-- Connect With Me -->
 
-		<!-- GitHub Icon Link -->
-		<a href= "https://github.com/jeanineerica" target="_blank"><img src= "assets/images/Github_Icon.jpeg" alt= "@jeanineerica"></a>
+		<div class= "sideBar">
 
-		<!-- LinkedIn Icon Link -->
-		<a href= "https://www.linkedin.com/in/jeaninesmith/" target="_blank"><img src= "assets/images/linkedin_icon.jpeg" alt= "@jeaninesmith"></a>
+			<h3>Connect with Me</h3>
+			<hr>
+				<!-- GitHub Icon Link -->
+				<a href= "https://github.com/jeanineerica" target="_blank"><img src= "assets/images/Github_Icon.png" width= "50px height=50px" alt= "@jeanineerica"></a>
 
-		<!-- Stack Icon Link -->	
-		<a href= "https://stackoverflow.com/users/8038241/jeanine-smith?tab=profile" target="_blank"><img src= "assets/images/stackoverflow_icon.jpeg" alt= "@jeanine-smith"></a>
+				<!-- LinkedIn Icon Link -->
+				<a href= "https://www.linkedin.com/in/jeaninesmith/" target="_blank"><img src= "assets/images/linkedin_icon.png" width= "50px height=50px" alt= "@jeaninesmith"></a>
 
-		<!-- Footer -->
- 		<div class="wrapper">
-
-    	  Copyright 2017 Jeanine Smith
-
-    	<div class="push"></div>
-
+				<!-- Stack Icon Link -->	
+				<a href= "https://stackoverflow.com/users/8038241/jeanine-smith?tab=profile" target="_blank"><img src= "assets/images/stackoverflow_icon.png" width= "50px height=50px" alt= "@jeanine-smith"></a>
 		</div>
-		<footer class="footer"></footer>
+	</aside>
 
-</body>	
+
+	
+	</div>
+<!-- Footer -->
+<footer>
+Copyright 2017 Jeanine Smith
+
+</footer>
+</body>
+</html>
+
